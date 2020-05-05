@@ -1,0 +1,142 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 32,
+        "name": "Add candidate in recruitment menu",
+        "description": "",
+        "id": "orangehrm-website;add-candidate-in-recruitment-menu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16482502100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Launch application and login to App",
+            "match": {
+              "location": "OrangeHrmRecruitSteps.launch_application_and_login_to_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1887555000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click recruitment",
+            "match": {
+              "location": "OrangeHrmRecruitSteps.click_recruitment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 699964600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Click on Add Button",
+            "match": {
+              "location": "OrangeHrmRecruitSteps.click_on_Add_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 302843000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Enter firstname and lastname",
+            "match": {
+              "location": "OrangeHrmRecruitSteps.enter_firstname_and_lastname()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 299166300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Enter email and contact no",
+            "match": {
+              "location": "OrangeHrmRecruitSteps.enter_email_and_contact_no()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65180200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "upload Resume",
+            "match": {
+              "location": "OrangeHrmRecruitSteps.upload_Resume()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 305717900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "select date of application",
+            "match": {
+              "location": "OrangeHrmRecruitSteps.select_date_of_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 283844200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "save the application",
+            "match": {
+              "location": "OrangeHrmRecruitSteps.save_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 709998700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "screenshot and close application",
+            "match": {
+              "location": "OrangeHrmRecruitSteps.screenshot_and_close_application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@tc_01_Recuritment"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHrm website",
+    "description": "",
+    "id": "orangehrm-website",
+    "keyword": "Feature",
+    "uri": "C:/Users/itsdi/eclipse-workspace/CucumberHybrid/src/test/resources/Features/Testcase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@orangeHRM"
+      }
+    ]
+  }
+]
