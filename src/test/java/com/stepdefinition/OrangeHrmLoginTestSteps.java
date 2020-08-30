@@ -6,6 +6,7 @@ import org.junit.Assert;
 
 import com.baseclass.library;
 import com.pages.loginHrm;
+
 import com.utils.SeleniumUtils;
 
 import cucumber.api.java.en.And;
@@ -42,6 +43,7 @@ public class OrangeHrmLoginTestSteps extends library {
 	public void click_the_login(){
 		hrm = new loginHrm(driver);
 		hrm.summit();
+		logger.info("login page =======>");
 		
 	}
 	@And("^Take screenshots and quit browser$")

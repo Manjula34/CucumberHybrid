@@ -16,5 +16,7 @@ public class SeleniumUtils {
 		String Title = driver.getTitle();
 		return Title;
 	}
+	
+	
 
 }

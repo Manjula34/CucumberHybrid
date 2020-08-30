@@ -22,6 +22,7 @@ Scenario: Click on Admin Search
 Given Launch orangehrm application and login
 When Select Admin menu
 Then Enter username 
+|rithika|
 Then Select userrole 
 Then Enter Employeename
 Then Select Status
